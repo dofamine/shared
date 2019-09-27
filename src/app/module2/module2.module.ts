@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Component2Component } from './component2.component';
 import { SharedModule } from "../shared/shared.module";
+import { FormsModule } from "@angular/forms";
 
 
 
@@ -9,7 +10,8 @@ import { SharedModule } from "../shared/shared.module";
   declarations: [Component2Component],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ],
   exports: [Component2Component]
 })

@@ -1,0 +1,7 @@
+<ol type="1">
+  <li *ngFor="let lesson of lessons">
+    <h2>{{lesson.name | uppercase | lowercase | shorten: 5: '...))'}} {{lesson.complexity}}</h2>
+    <p>{{lesson.date | date : 'shortDate'}}</p>
+    <p>{{ 8888 | currency}}</p>
+  </li>
+</ol>

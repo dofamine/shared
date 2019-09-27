@@ -1,7 +1,30 @@
-<h1>Root component App</h1>
-<hr>
-<app-greetings [greeting]="'hello from app component'"></app-greetings>
-<br>
+<!--<h1 #header>Root component App</h1>-->
+<!--<hr>-->
+<!--<app-greetings *ngIf="show" [greeting]="'greeting'">-->
+<!--  <p class="paragraph" appHighlight [defaultColor]="'green'" #paragraph>nested markup</p>-->
+<!--</app-greetings>-->
+<!--<br>-->
+
+<!--&lt;!&ndash;<app-component1>&ndash;&gt;-->
+<!--&lt;!&ndash;  <p class="paragraph" #paragraph>nested markup</p>&ndash;&gt;-->
+<!--&lt;!&ndash;</app-component1>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<ng-template #alternativeContent>&ndash;&gt;-->
+<!--&lt;!&ndash;  <p>this content wont be visible</p>&ndash;&gt;-->
+<!--&lt;!&ndash;</ng-template>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<ng-container *ngIf="show; else alternativeContent">&ndash;&gt;-->
+<!--&lt;!&ndash;  <div *ngFor="let time of [1,2,3,4]">{{time}} - this is a simple wrapper</div>&ndash;&gt;-->
+<!--&lt;!&ndash;</ng-container>&ndash;&gt;-->
+
+<!--<button (click)="onClick();">toggle</button>-->
+<!--<app-date></app-date>-->
+
+<p>{{state.value}}</p>
+<button (click)="inc()">increment</button>
 <app-component1></app-component1>
-<br>
-<app-component2></app-component2>
+
+
+
+
+
